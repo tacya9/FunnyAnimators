@@ -2,9 +2,6 @@
   "name": "funny-animators",
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "scss": "sass --watch styles/index.scss styles/index.css",
     "server": "npx http-server",
