@@ -3,9 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
-	<link rel="stylesheet"  href="styles/index.css">
+	<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+<div class="c-layout">
+	<header class="c-layout__header">
+		<h1 class="c-layout__page-title">Funny animators: main page</h1>
+	</header>
+	<nav class="c-layout__navigation">
+		<a href="/" class="c-link">Main</a>
+		<a href="/details" class="c-link">Details</a>
+		<a href="/contacts" class="c-link">Contacts</a>
+	</nav>
+	<main class="c-layout__main">
+		<p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+			dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.</p>
+		<div class="c-flex m-gap-middle">
+			<div id="extraDetails" class="c-flex__item m-grow-1"></div>
+			<div id="infoCard" class="c-flex__item"></div>
+		</div>
+	</main>
+</div>
 
+<script type="module" src="/pages/index.js"></script>
 </body>
 </html>

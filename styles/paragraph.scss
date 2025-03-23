@@ -1,0 +1,7 @@
+@use "variables";
+
+.c-paragraph {
+	font-size: 1rem;
+	color: variables.$tundora-color;
+	line-height: 1.6;
+}
