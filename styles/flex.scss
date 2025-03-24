@@ -1,0 +1,14 @@
+.c-flex {
+	display: flex;
+	flex-direction: row;
+
+	&.m-gap-middle {
+		gap: 40px;
+	}
+}
+
+.c-flex__item {
+	&.m-grow-1 {
+		flex-grow: 1;
+	}
+}
