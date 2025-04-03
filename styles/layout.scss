@@ -45,3 +45,13 @@
 	top: 120px;
 	background: variables.$white-color;
 }
+.c-layout__main {
+	&.m-main-page {
+		.c-paragraph {
+			margin-bottom: 40px;
+		}
+		.c-show-more + .c-contact {
+			margin-top: 40px;
+		}
+	}
+}
