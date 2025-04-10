@@ -33,7 +33,7 @@ export default class Card {
 		alert(`A card with the title: ${this.title}`)
 	}
 
-	render(parent) {
-		return parent ? parent.appendChild(this.element) : this.element;
-	}
+	// render(parent) {
+	// 	return parent ? parent.appendChild(this.element) : this.element;
+	// }
 }

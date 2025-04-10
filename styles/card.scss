@@ -6,6 +6,7 @@
 	padding: 20px;
 	box-sizing: border-box;
 	min-width: 260px;
+	text-align: center;
 }
 .c-card__pict {
 	width: 220px;
@@ -13,7 +14,6 @@
 }
 .c-card__title {
 	color: variables.$milano-red-color;
-	text-align: center;
 	font-size: 1rem;
 	margin-top: 4px;
 }

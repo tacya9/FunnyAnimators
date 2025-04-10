@@ -369,11 +369,11 @@ body {
   background: #fff;
 }
 
-.c-layout__main.m-main-page .c-paragraph {
-  margin-bottom: 40px;
-}
 .c-layout__main.m-main-page .c-show-more + .c-contact {
   margin-top: 40px;
+}
+.c-layout__main .c-paragraph {
+  margin-bottom: 40px;
 }
 
 .c-flex {
@@ -386,6 +386,9 @@ body {
 
 .c-flex__item.m-grow-1 {
   flex-grow: 1;
+}
+.c-flex__item.m-flex-1 {
+  flex: 1;
 }
 
 .c-link {
@@ -408,6 +411,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
   min-width: 260px;
+  text-align: center;
 }
 
 .c-card__pict {
@@ -417,7 +421,6 @@ body {
 
 .c-card__title {
   color: #B70F0A;
-  text-align: center;
   font-size: 1rem;
   margin-top: 4px;
 }
@@ -426,6 +429,7 @@ body {
   padding: 20px;
   background: #606060;
   border-radius: 8px;
+  text-align: left;
 }
 .c-show-more.m-open .c-show-more__hidden-info {
   display: inline;

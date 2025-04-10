@@ -31,7 +31,7 @@ export default class ShowMore {
 		return showMore;
 	}
 
-	render(parent) {
-		return parent ? parent.appendChild(this.element) : this.element;
-	}
+	// render(parent) {
+	// 	return parent ? parent.appendChild(this.element) : this.element;
+	// }
 }
