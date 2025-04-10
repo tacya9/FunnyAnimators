@@ -47,11 +47,12 @@
 }
 .c-layout__main {
 	&.m-main-page {
-		.c-paragraph {
-			margin-bottom: 40px;
-		}
 		.c-show-more + .c-contact {
 			margin-top: 40px;
 		}
+	}
+
+	.c-paragraph {
+		margin-bottom: 40px;
 	}
 }

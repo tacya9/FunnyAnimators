@@ -21,6 +21,10 @@ const contactOnMainPage = new Contact({
 	value: 'ivan ivanov',
 })
 
-supermanCard.render(cardWrapper);
-moreInfo.render(infoWrapper);
-contactOnMainPage.render(infoWrapper);
+// supermanCard.render(cardWrapper);
+// moreInfo.render(infoWrapper);
+// contactOnMainPage.render(infoWrapper);
+
+cardWrapper.appendChild(supermanCard.element);
+infoWrapper.appendChild(moreInfo.element);
+infoWrapper.appendChild(contactOnMainPage.element)
