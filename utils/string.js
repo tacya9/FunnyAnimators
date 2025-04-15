@@ -15,7 +15,8 @@
 // 	}
 // 	return newText.slice(1, newText.length);
 // }
-export function getTextWithHyphens (text) {
+// export function getTextWithHyphens (text) {
+export const getTextWithHyphens = (text) => {
 	const textArr = text.split('');
 
 	return textArr.join('-');

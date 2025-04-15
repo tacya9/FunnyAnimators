@@ -352,6 +352,7 @@ body {
 }
 
 .c-layout__page-title {
+  font-family: "Banders-Regular", sans-serif;
   font-size: 1.846rem;
   padding: 16px 0;
   line-height: 1.417;
@@ -393,12 +394,14 @@ body {
 
 .c-link {
   padding: 5px 0;
+  font-family: "Banders-Regular", sans-serif;
   font-size: 1.153rem;
   color: #006CE5;
   line-height: 1.34;
 }
 
 .c-paragraph {
+  font-family: "Banders-Regular", sans-serif;
   font-size: 1rem;
   color: #444444;
   line-height: 1.6;
@@ -437,6 +440,7 @@ body {
 
 .c-show-more__info {
   color: #fff;
+  font-family: "Banders-Regular", sans-serif;
   font-size: 0.923rem;
   line-height: 1.3;
   margin: 0 0 14px 0;
@@ -457,8 +461,16 @@ body {
   margin: 0 auto;
 }
 
+.c-contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 40px;
+}
+
 .c-contact {
   display: inline-block;
+  font-family: "Banders-Regular", sans-serif;
   font-size: 1.153rem;
   line-height: 1.3;
   background: #D6D6D6;

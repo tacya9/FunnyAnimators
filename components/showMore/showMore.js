@@ -20,7 +20,7 @@ export default class ShowMore {
 
 		button.classList.add('c-show-more__button');
 		button.innerHTML = 'Show More';
-		button.addEventListener('click', function () {
+		button.addEventListener('click', () => {
 			this.isOpen = !this.isOpen;
 			showMore.classList.toggle('m-open');
 			button.innerHTML = `Show ${this.isOpen ? 'Less' : 'More'}`;
