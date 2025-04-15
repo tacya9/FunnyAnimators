@@ -3,8 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+<div class="c-layout">
+	<header class="c-layout__header">
+		<h1 class="c-layout__page-title">Funny animators: main page</h1>
+	</header>
+	<nav class="c-layout__navigation">
+		<a href="/" class="c-link">Main</a>
+		<a href="/details" class="c-link">Details</a>
+		<a href="/contacts" class="c-link">Contacts</a>
+	</nav>
+	<main class="c-layout__main">
+		<div id="contactsList" class="c-contacts-list"></div>
+	</main>
+</div>
 
+<script type="module" src="/pages/contacts.js"></script>
 </body>
 </html>

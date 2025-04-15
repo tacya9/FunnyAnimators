@@ -43,7 +43,8 @@ const cardContents = [
 	}
 ]
 
-cardContents.forEach(function (cardContent) {
+// cardContents.forEach(function (cardContent) {
+cardContents.forEach(cardContent => {
 	const showMoreComponent = new ShowMore({
 		visibleContent: cardContent.showMore.visibleContent,
 		hiddenContent: cardContent.showMore.hiddenContent,
