@@ -452,6 +452,7 @@ body {
 
 .c-show-more__button {
   display: block;
+  font-family: "Banders-Regular", sans-serif;
   font-size: 0.923rem;
   padding: 0 30px;
   height: 32px;
